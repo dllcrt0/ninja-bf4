@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8e80a0c0-fd5e-45bb-885f-8a37159085f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1965d0c7-a56e-4de0-b055-475b690353cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Engine.xml" />
+    <None Include="Engine.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\NiNJA.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\utils\log.cpp" />
+    <ClCompile Include="src\utils\utilities.cpp" />
+    <ClCompile Include="src\utils\patches.cpp" />
+    <ClCompile Include="src\utils\global.cpp" />
+    <ClCompile Include="src\backend\systemHooks.cpp" />
+    <ClCompile Include="src\backend\hooking.cpp" />
+    <ClCompile Include="src\menu\game.cpp" />
+    <ClCompile Include="src\backend\titleHooks.cpp" />
+    <ClCompile Include="src\utils\input\controller.cpp" />
+    <ClCompile Include="src\menu\renderer.cpp" />
+    <ClCompile Include="src\menu\weapon.cpp" />
+    <ClCompile Include="src\menu\player.cpp" />
+    <ClCompile Include="src\utils\heapManager.cpp" />
+    <ClCompile Include="src\menu\messages.cpp" />
+    <ClCompile Include="src\menu\handler\submenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenuHandler.cpp" />
+    <ClCompile Include="src\menu\handler\options\option.cpp" />
+    <ClCompile Include="src\menu\handler\menu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\mainMenu.cpp" />
+    <ClCompile Include="src\menu\handler\options\buttonOption.cpp" />
+    <ClCompile Include="src\menu\handler\options\toggleOption.cpp" />
+    <ClCompile Include="src\menu\handler\options\scrollOption.cpp" />
+    <ClCompile Include="src\menu\handler\options\numberOption.cpp" />
+    <ClCompile Include="src\menu\handler\options\submenuOption.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\mainChatCommands.cpp" />
+    <ClCompile Include="src\menu\handler\options\breakOption.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\weaponMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\visualMenu.cpp" />
+    <ClCompile Include="src\utils\sound\sounds.cpp" />
+    <ClCompile Include="src\utils\sound\AtgAudioCleaned.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\serverSettingsMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\spotMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\aimbotMenu.cpp" />
+    <ClCompile Include="src\menu\aimbot.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\clientMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\client\selectedClientMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\ordersMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\warningMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\settingsMenu.cpp" />
+    <ClCompile Include="src\roninSecure\roninSecure.cpp" />
+    <ClCompile Include="src\roninSecure\security\module.cpp" />
+    <ClCompile Include="src\roninSecure\security\runtime.cpp" />
+    <ClCompile Include="src\roninSecure\security\xbdm.cpp" />
+    <ClCompile Include="src\roninSecure\XBLSMsgr.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\movementMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\settings\soundsMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\settings\configMenu.cpp" />
+    <ClCompile Include="src\utils\config.cpp" />
+    <ClCompile Include="src\roninSecure\invoker\invoker.cpp" />
+    <ClCompile Include="src\utils\memory\memory.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\settings\colorMenu.cpp" />
+    <ClCompile Include="src\menu\handler\options\colorOption.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\settings\color\colorEditorMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\visuals\visualCustomizationMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\developerMenu.cpp" />
+    <ClCompile Include="src\network\HttpRequest.cpp" />
+    <ClCompile Include="src\roninSecure\security\functionRemoval.cpp" />
+    <ClCompile Include="src\utils\rtti.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\main\loadoutEditorMenu.cpp" />
+    <ClCompile Include="src\menu\handler\submenus\currentGameMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\utils\log.h" />
+    <ClInclude Include="src\utils\utilities.h" />
+    <ClInclude Include="src\utils\settings.h" />
+    <ClInclude Include="src\utils\global.h" />
+    <ClInclude Include="src\utils\patches.h" />
+    <ClInclude Include="src\backend\systemHooks.h" />
+    <ClInclude Include="src\backend\hooking.h" />
+    <ClInclude Include="src\menu\game.h" />
+    <ClInclude Include="src\backend\titleHooks.h" />
+    <ClInclude Include="src\utils\input\controller.h" />
+    <ClInclude Include="src\utils\structs.h" />
+    <ClInclude Include="src\utils\enums.h" />
+    <ClInclude Include="src\menu\renderer.h" />
+    <ClInclude Include="src\menu\weapon.h" />
+    <ClInclude Include="src\menu\player.h" />
+    <ClInclude Include="src\utils\heapManager.h" />
+    <ClInclude Include="src\menu\messages.h" />
+    <ClInclude Include="src\menu\handler\submenu.h" />
+    <ClInclude Include="src\menu\handler\submenuHandler.h" />
+    <ClInclude Include="src\menu\handler\options\option.h" />
+    <ClInclude Include="src\menu\handler\menu.h" />
+    <ClInclude Include="src\menu\handler\submenus\mainMenu.h" />
+    <ClInclude Include="src\menu\handler\options\buttonOption.h" />
+    <ClInclude Include="src\menu\handler\utils\menuFunctions.h" />
+    <ClInclude Include="src\menu\handler\options\toggleOption.h" />
+    <ClInclude Include="src\menu\handler\options\scrollOption.h" />
+    <ClInclude Include="src\menu\handler\options\numberOption.h" />
+    <ClInclude Include="src\menu\handler\options\submenuOption.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\mainChatCommands.h" />
+    <ClInclude Include="src\menu\handler\options\breakOption.h" />
+    <ClInclude Include="src\menu\handler\submenus\weaponMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\visualMenu.h" />
+    <ClInclude Include="src\utils\sound\sounds.h" />
+    <ClInclude Include="src\utils\sound\AtgAudioCleaned.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\serverSettingsMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\spotMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\aimbotMenu.h" />
+    <ClInclude Include="src\menu\aimbot.h" />
+    <ClInclude Include="src\menu\handler\submenus\clientMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\client\selectedClientMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\ordersMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\warningMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\settingsMenu.h" />
+    <ClInclude Include="src\roninSecure\roninSecure.h" />
+    <ClInclude Include="src\roninSecure\security\module.h" />
+    <ClInclude Include="src\roninSecure\security\runtime.h" />
+    <ClInclude Include="src\roninSecure\security\xbdm.h" />
+    <ClInclude Include="src\roninSecure\mailMan.h" />
+    <ClInclude Include="src\roninSecure\XBLSMsgr.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\movementMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\settings\soundsMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\settings\configMenu.h" />
+    <ClInclude Include="src\utils\config.h" />
+    <ClInclude Include="src\roninSecure\invoker\invoker.h" />
+    <ClInclude Include="src\roninSecure\invoker\natives.h" />
+    <ClInclude Include="src\utils\memory\memory.h" />
+    <ClInclude Include="src\menu\handler\submenus\settings\colorMenu.h" />
+    <ClInclude Include="src\menu\handler\options\colorOption.h" />
+    <ClInclude Include="src\menu\handler\submenus\settings\color\colorEditorMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\visuals\visualCustomizationMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\developerMenu.h" />
+    <ClInclude Include="src\network\HttpRequest.h" />
+    <ClInclude Include="src\roninSecure\security\functionRemoval.h" />
+    <ClInclude Include="src\utils\rtti.h" />
+    <ClInclude Include="src\menu\handler\submenus\main\loadoutEditorMenu.h" />
+    <ClInclude Include="src\menu\handler\submenus\currentGameMenu.h" />
+  </ItemGroup>
+</Project>
